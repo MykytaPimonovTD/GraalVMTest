@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm")
+    application
     id("org.graalvm.buildtools.native").version("0.10.5")
 }
 
@@ -14,7 +15,11 @@ kotlin {
 
 dependencies {
     implementation("com.google.flogger:flogger:0.8")
-    implementation("com.google.flogger:flogger-log4j2-backend:0.8")
+    implementation("com.google.flogger:flogger-system-backend:0.8")
+}
+
+application {
+    mainClass = "io.spine.graal.MainKt"
 }
 
 graalvmNative {
