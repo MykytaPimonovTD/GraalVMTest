@@ -1,8 +1,5 @@
-import org.jetbrains.compose.desktop.application.dsl.TargetFormat
-
 plugins {
     kotlin("jvm")
-    id("org.jetbrains.compose")
     id("org.graalvm.buildtools.native").version("0.10.5")
 }
 
@@ -14,10 +11,6 @@ repositories {
 kotlin {
     jvmToolchain(17)
     explicitApi()
-}
-
-dependencies {
-    implementation(compose.desktop.currentOs)
 }
 
 graalvmNative {
@@ -32,19 +25,7 @@ graalvmNative {
     }
 
     agent {
-        enabled = true
+        enabled= true
         defaultMode = "standard"
-    }
-}
-
-compose.desktop {
-    application {
-        mainClass = "io.spine.graal.MainKt"
-
-        nativeDistributions {
-            targetFormats(TargetFormat.Dmg)
-            packageName = "GraalApplication"
-            packageVersion = "1.0.0"
-        }
     }
 }

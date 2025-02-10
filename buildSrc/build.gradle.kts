@@ -9,7 +9,6 @@ repositories {
 }
 
 val kotlinVersion = "1.9.20"
-val composeVersion = "1.7.0"
 
 configurations.all {
     resolutionStrategy {
@@ -24,6 +23,4 @@ configurations.all {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-    implementation("org.jetbrains.compose:compose-gradle-plugin:$composeVersion")
-    implementation("org.jetbrains.compose.desktop:desktop:$composeVersion")
 }
