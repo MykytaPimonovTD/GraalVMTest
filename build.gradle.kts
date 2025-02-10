@@ -5,8 +5,10 @@ plugins {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
     google()
+    maven("https://spine.mycloudrepo.io/public/repositories/releases")
 }
 
 kotlin {
@@ -14,27 +16,30 @@ kotlin {
 }
 
 dependencies {
+    implementation("io.spine:spine-client:1.9.0")
+    implementation("io.grpc:grpc-netty:1.70.0")
+
     implementation("com.google.flogger:flogger:0.8")
     implementation("com.google.flogger:flogger-system-backend:0.8")
 }
 
 application {
-    mainClass = "io.spine.graal.MainKt"
+    mainClass.set("io.spine.graal.MainKt")
 }
 
 graalvmNative {
-    toolchainDetection = true
+    toolchainDetection.set(true)
 
     binaries {
         named("main") {
-            imageName = "application"
-            mainClass = "io.spine.graal.MainKt"
-            fallback = false
+            imageName.set("application")
+            mainClass.set("io.spine.graal.MainKt")
+            fallback.set(false)
         }
     }
 
     agent {
-        enabled= true
-        defaultMode = "standard"
+        enabled.set(true)
+        defaultMode.set("standard")
     }
 }
