@@ -1,5 +1,10 @@
 package io.spine.graal
 
+import com.google.common.flogger.FluentLogger
+
+private val logger = FluentLogger.forEnclosingClass()
+
 public fun main() {
-    println("Hello World!")
+    logger.atInfo()
+        .log("Application started!")
 }

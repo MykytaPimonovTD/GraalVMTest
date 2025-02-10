@@ -4,13 +4,17 @@ plugins {
 }
 
 repositories {
-    google()
     mavenCentral()
+    google()
 }
 
 kotlin {
-    jvmToolchain(17)
     explicitApi()
+}
+
+dependencies {
+    implementation("com.google.flogger:flogger:0.8")
+    implementation("com.google.flogger:flogger-log4j2-backend:0.8")
 }
 
 graalvmNative {
