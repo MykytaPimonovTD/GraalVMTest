@@ -16,15 +16,16 @@ kotlin {
 }
 
 dependencies {
-    implementation("io.spine:spine-client:1.9.0")
-    implementation("io.grpc:grpc-netty:1.70.0")
-
+    implementation("io.spine.examples.pingh:client:1.0.7")
+    implementation("com.google.guava:guava:33.4.0-jre")
     implementation("com.google.flogger:flogger:0.8")
     implementation("com.google.flogger:flogger-system-backend:0.8")
 }
 
+val appClassName = "io.spine.graal.MainKt"
+
 application {
-    mainClass.set("io.spine.graal.MainKt")
+    mainClass.set(appClassName)
 }
 
 graalvmNative {
@@ -33,7 +34,7 @@ graalvmNative {
     binaries {
         named("main") {
             imageName.set("application")
-            mainClass.set("io.spine.graal.MainKt")
+            mainClass.set(appClassName)
             fallback.set(false)
         }
     }
