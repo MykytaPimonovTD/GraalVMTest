@@ -1,0 +1,2293 @@
+[
+  {
+    "name": "io.spine.examples.pingh.client.UserData",
+    "methods": [
+      {
+        "name": "getSession",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSettings",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasSession",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasSettings",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.client.UserData$Builder",
+    "methods": [
+      {
+        "name": "clearSession",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearSettings",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSession",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSessionBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSettings",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSettingsBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUserBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasSession",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasSettings",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "setSession",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      },
+      {
+        "name": "setSettings",
+        "parameterTypes": [
+          "io.spine.examples.pingh.client.settings.UserSettings"
+        ]
+      },
+      {
+        "name": "setUser",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Username"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.client.UserDataRegistry",
+    "methods": [
+      {
+        "name": "getData",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getDataCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDataList",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.client.UserDataRegistry$Builder",
+    "methods": [
+      {
+        "name": "addData",
+        "parameterTypes": [
+          "io.spine.examples.pingh.client.UserData"
+        ]
+      },
+      {
+        "name": "clearData",
+        "parameterTypes": []
+      },
+      {
+        "name": "getData",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getDataBuilder",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getDataCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDataList",
+        "parameterTypes": []
+      },
+      {
+        "name": "setData",
+        "parameterTypes": [
+          "int",
+          "io.spine.examples.pingh.client.UserData"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.client.settings.IgnoredSource",
+    "methods": [
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.client.settings.SnoozeTime",
+    "methods": [
+      {
+        "name": "getValueDescriptor",
+        "parameterTypes": []
+      },
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "com.google.protobuf.Descriptors$EnumValueDescriptor"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.client.settings.UserSettings",
+    "methods": [
+      {
+        "name": "getDndEnabled",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIgnored",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getIgnoredCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIgnoredList",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSnoozeTime",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSnoozeTimeValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.client.settings.UserSettings$Builder",
+    "methods": [
+      {
+        "name": "addIgnored",
+        "parameterTypes": [
+          "io.spine.examples.pingh.client.settings.IgnoredSource"
+        ]
+      },
+      {
+        "name": "clearDndEnabled",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearIgnored",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearSnoozeTime",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDndEnabled",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIgnored",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getIgnoredBuilder",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getIgnoredCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIgnoredList",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSnoozeTime",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSnoozeTimeValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "setDndEnabled",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setIgnored",
+        "parameterTypes": [
+          "int",
+          "io.spine.examples.pingh.client.settings.IgnoredSource"
+        ]
+      },
+      {
+        "name": "setSnoozeTime",
+        "parameterTypes": [
+          "io.spine.examples.pingh.client.settings.SnoozeTime"
+        ]
+      },
+      {
+        "name": "setSnoozeTimeValue",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.NodeId",
+    "methods": [
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.NodeId$Builder",
+    "methods": [
+      {
+        "name": "clearValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setValue",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setValueBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.PersonalAccessToken",
+    "methods": [
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.Repo",
+    "methods": [
+      {
+        "name": "getName",
+        "parameterTypes": []
+      },
+      {
+        "name": "getNameBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOwner",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOwnerBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.Repo$Builder",
+    "methods": [
+      {
+        "name": "clearName",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearOwner",
+        "parameterTypes": []
+      },
+      {
+        "name": "getName",
+        "parameterTypes": []
+      },
+      {
+        "name": "getNameBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOwner",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOwnerBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setNameBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      },
+      {
+        "name": "setOwner",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setOwnerBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.Team",
+    "methods": [
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.User",
+    "methods": [
+      {
+        "name": "getAvatarUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasAvatarUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.User$Builder",
+    "methods": [
+      {
+        "name": "clearAvatarUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "getAvatarUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getAvatarUrlBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsernameBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasAvatarUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "setAvatarUrl",
+        "parameterTypes": [
+          "io.spine.net.Url"
+        ]
+      },
+      {
+        "name": "setUsername",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Username"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.UserCode",
+    "methods": [
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.Username",
+    "methods": [
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.github.Username$Builder",
+    "methods": [
+      {
+        "name": "clearValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setValue",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setValueBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.MentionId",
+    "methods": [
+      {
+        "name": "getUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhere",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhere",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.MentionId$Builder",
+    "methods": [
+      {
+        "name": "clearUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhere",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUserBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhere",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhere",
+        "parameterTypes": []
+      },
+      {
+        "name": "setUser",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Username"
+        ]
+      },
+      {
+        "name": "setWhere",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.NodeId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.MentionStatus",
+    "methods": [
+      {
+        "name": "getValueDescriptor",
+        "parameterTypes": []
+      },
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "com.google.protobuf.Descriptors$EnumValueDescriptor"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.MentionView",
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPinned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getStatus",
+        "parameterTypes": []
+      },
+      {
+        "name": "getStatusValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitleBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.MentionView$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearPinned",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearStatus",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPinned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getStatus",
+        "parameterTypes": []
+      },
+      {
+        "name": "getStatusValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitleBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUrlBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeamBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.mentions.MentionId"
+        ]
+      },
+      {
+        "name": "setPinned",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setStatus",
+        "parameterTypes": [
+          "io.spine.examples.pingh.mentions.MentionStatus"
+        ]
+      },
+      {
+        "name": "setStatusValue",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setTitle",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTitleBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      },
+      {
+        "name": "setUrl",
+        "parameterTypes": [
+          "io.spine.net.Url"
+        ]
+      },
+      {
+        "name": "setViaTeam",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Team"
+        ]
+      },
+      {
+        "name": "setWhenMentioned",
+        "parameterTypes": [
+          "com.google.protobuf.Timestamp"
+        ]
+      },
+      {
+        "name": "setWhereMentioned",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Repo"
+        ]
+      },
+      {
+        "name": "setWhoMentioned",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.User"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.UserMentions",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMention",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getMentionCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMentionList",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.UserMentions$Builder",
+    "methods": [
+      {
+        "name": "addMention",
+        "parameterTypes": [
+          "io.spine.examples.pingh.mentions.MentionView"
+        ]
+      },
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearMention",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMention",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getMentionBuilder",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getMentionCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMentionList",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.mentions.UserMentionsId"
+        ]
+      },
+      {
+        "name": "setMention",
+        "parameterTypes": [
+          "int",
+          "io.spine.examples.pingh.mentions.MentionView"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.UserMentionsId",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.UserMentionsId$Builder",
+    "methods": [
+      {
+        "name": "clearUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsernameBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "setUsername",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Username"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.event.MentionUnsnoozed",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitleBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhoMentioned",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.event.MentionUnsnoozed$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitleBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeamBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.mentions.MentionId"
+        ]
+      },
+      {
+        "name": "setTitle",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTitleBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      },
+      {
+        "name": "setViaTeam",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Team"
+        ]
+      },
+      {
+        "name": "setWhenMentioned",
+        "parameterTypes": [
+          "com.google.protobuf.Timestamp"
+        ]
+      },
+      {
+        "name": "setWhereMentioned",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Repo"
+        ]
+      },
+      {
+        "name": "setWhoMentioned",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.User"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.event.UserMentioned",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitleBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhoMentioned",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.mentions.event.UserMentioned$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitle",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTitleBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUrlBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "getViaTeamBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhereMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhoMentionedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasViaTeam",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhereMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhoMentioned",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.mentions.MentionId"
+        ]
+      },
+      {
+        "name": "setTitle",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTitleBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      },
+      {
+        "name": "setUrl",
+        "parameterTypes": [
+          "io.spine.net.Url"
+        ]
+      },
+      {
+        "name": "setViaTeam",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Team"
+        ]
+      },
+      {
+        "name": "setWhenMentioned",
+        "parameterTypes": [
+          "com.google.protobuf.Timestamp"
+        ]
+      },
+      {
+        "name": "setWhereMentioned",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Repo"
+        ]
+      },
+      {
+        "name": "setWhoMentioned",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.User"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.SessionId",
+    "methods": [
+      {
+        "name": "getUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenCreated",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenCreated",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.SessionId$Builder",
+    "methods": [
+      {
+        "name": "clearUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhenCreated",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUsernameBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenCreated",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenCreatedBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUsername",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenCreated",
+        "parameterTypes": []
+      },
+      {
+        "name": "setUsername",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Username"
+        ]
+      },
+      {
+        "name": "setWhenCreated",
+        "parameterTypes": [
+          "com.google.protobuf.Timestamp"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.command.LogUserIn",
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.command.LogUserIn$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.command.VerifySession",
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.command.VerifySession$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.command.VerifyUserLoginToGitHub",
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.command.VerifyUserLoginToGitHub$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.SessionExpired",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.SessionExpired$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.SessionVerificationFailed",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.SessionVerificationFailed$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.SessionVerified",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.SessionVerified$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.UserCodeReceived",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getExpiresIn",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getInterval",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUserCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "getVerificationUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasExpiresIn",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasInterval",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUserCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasVerificationUrl",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.UserCodeReceived$Builder",
+    "methods": [
+      {
+        "name": "clearExpiresIn",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearInterval",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearUserCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearVerificationUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getExpiresIn",
+        "parameterTypes": []
+      },
+      {
+        "name": "getExpiresInBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getInterval",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIntervalBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUserCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUserCodeBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getVerificationUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "getVerificationUrlBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasExpiresIn",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasInterval",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasUserCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasVerificationUrl",
+        "parameterTypes": []
+      },
+      {
+        "name": "setExpiresIn",
+        "parameterTypes": [
+          "com.google.protobuf.Duration"
+        ]
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      },
+      {
+        "name": "setInterval",
+        "parameterTypes": [
+          "com.google.protobuf.Duration"
+        ]
+      },
+      {
+        "name": "setUserCode",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.UserCode"
+        ]
+      },
+      {
+        "name": "setVerificationUrl",
+        "parameterTypes": [
+          "io.spine.net.Url"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.UserIsNotLoggedIntoGitHub",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.UserIsNotLoggedIntoGitHub$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.UserLoggedIn",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToken",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenTokenExpires",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasToken",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenTokenExpires",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.event.UserLoggedIn$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearToken",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearWhenTokenExpires",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToken",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTokenBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenTokenExpires",
+        "parameterTypes": []
+      },
+      {
+        "name": "getWhenTokenExpiresBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasToken",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasWhenTokenExpires",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      },
+      {
+        "name": "setToken",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.PersonalAccessToken"
+        ]
+      },
+      {
+        "name": "setWhenTokenExpires",
+        "parameterTypes": [
+          "com.google.protobuf.Timestamp"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.rejection.Rejections$NotMemberOfPermittedOrgs",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.rejection.Rejections$NotMemberOfPermittedOrgs$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.rejection.Rejections$UsernameMismatch",
+    "methods": [
+      {
+        "name": "getDefaultInstance",
+        "parameterTypes": []
+      },
+      {
+        "name": "getExpectedUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLoggedInUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasExpectedUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasLoggedInUser",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.examples.pingh.sessions.rejection.Rejections$UsernameMismatch$Builder",
+    "methods": [
+      {
+        "name": "clearExpectedUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearLoggedInUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "getExpectedUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "getExpectedUserBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLoggedInUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLoggedInUserBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasExpectedUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasLoggedInUser",
+        "parameterTypes": []
+      },
+      {
+        "name": "setExpectedUser",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Username"
+        ]
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.examples.pingh.sessions.SessionId"
+        ]
+      },
+      {
+        "name": "setLoggedInUser",
+        "parameterTypes": [
+          "io.spine.examples.pingh.github.Username"
+        ]
+      }
+    ]
+  }
+]

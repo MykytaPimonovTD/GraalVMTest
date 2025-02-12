@@ -1,0 +1,1478 @@
+[
+  {
+    "name": "io.spine.base.FieldPath",
+    "methods": [
+      {
+        "name": "getFieldName",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getFieldNameCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldNameList",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.base.FieldPath$Builder",
+    "methods": [
+      {
+        "name": "addFieldName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "clearFieldName",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldName",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getFieldNameCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldNameList",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFieldName",
+        "parameterTypes": [
+          "int",
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.CompositeFilter",
+    "methods": [
+      {
+        "name": "getFilter",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getFilterCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilterList",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOperator",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOperatorValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.CompositeFilter$Builder",
+    "methods": [
+      {
+        "name": "addFilter",
+        "parameterTypes": [
+          "io.spine.client.Filter"
+        ]
+      },
+      {
+        "name": "clearFilter",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearOperator",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilter",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getFilterBuilder",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getFilterCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilterList",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOperator",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOperatorValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFilter",
+        "parameterTypes": [
+          "int",
+          "io.spine.client.Filter"
+        ]
+      },
+      {
+        "name": "setOperator",
+        "parameterTypes": [
+          "io.spine.client.CompositeFilter$CompositeOperator"
+        ]
+      },
+      {
+        "name": "setOperatorValue",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.CompositeFilter$CompositeOperator",
+    "methods": [
+      {
+        "name": "getValueDescriptor",
+        "parameterTypes": []
+      },
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "com.google.protobuf.Descriptors$EnumValueDescriptor"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Filter",
+    "methods": [
+      {
+        "name": "getFieldPath",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOperator",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOperatorValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasFieldPath",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Filter$Builder",
+    "methods": [
+      {
+        "name": "clearFieldPath",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearOperator",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldPath",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldPathBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOperator",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOperatorValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasFieldPath",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFieldPath",
+        "parameterTypes": [
+          "io.spine.base.FieldPath"
+        ]
+      },
+      {
+        "name": "setOperator",
+        "parameterTypes": [
+          "io.spine.client.Filter$Operator"
+        ]
+      },
+      {
+        "name": "setOperatorValue",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setValue",
+        "parameterTypes": [
+          "com.google.protobuf.Any"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Filter$Operator",
+    "methods": [
+      {
+        "name": "getValueDescriptor",
+        "parameterTypes": []
+      },
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "com.google.protobuf.Descriptors$EnumValueDescriptor"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.IdFilter",
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getIdCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdList",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.IdFilter$Builder",
+    "methods": [
+      {
+        "name": "addId",
+        "parameterTypes": [
+          "com.google.protobuf.Any"
+        ]
+      },
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getIdCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdList",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "int",
+          "com.google.protobuf.Any"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.OrderBy",
+    "methods": [
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Query",
+    "methods": [
+      {
+        "name": "getContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFormat",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasFormat",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTarget",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Query$Builder",
+    "methods": [
+      {
+        "name": "clearContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearFormat",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "getContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "getContextBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFormat",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFormatBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTargetBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasFormat",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "setContext",
+        "parameterTypes": [
+          "io.spine.core.ActorContext"
+        ]
+      },
+      {
+        "name": "setFormat",
+        "parameterTypes": [
+          "io.spine.client.ResponseFormat"
+        ]
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.client.QueryId"
+        ]
+      },
+      {
+        "name": "setTarget",
+        "parameterTypes": [
+          "io.spine.client.Target"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.QueryId",
+    "methods": [
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.ResponseFormat",
+    "methods": [
+      {
+        "name": "getFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLimit",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOrderBy",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasOrderBy",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.ResponseFormat$Builder",
+    "methods": [
+      {
+        "name": "clearFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearLimit",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearOrderBy",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldMaskBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLimit",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOrderBy",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOrderByBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasOrderBy",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFieldMask",
+        "parameterTypes": [
+          "com.google.protobuf.FieldMask"
+        ]
+      },
+      {
+        "name": "setLimit",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setOrderBy",
+        "parameterTypes": [
+          "io.spine.client.OrderBy"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Subscription",
+    "methods": [
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTopic",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTopic",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Subscription$Builder",
+    "methods": [
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearTopic",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTopic",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTopicBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTopic",
+        "parameterTypes": []
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.client.SubscriptionId"
+        ]
+      },
+      {
+        "name": "setTopic",
+        "parameterTypes": [
+          "io.spine.client.Topic"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.SubscriptionId",
+    "methods": [
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.SubscriptionId$Builder",
+    "methods": [
+      {
+        "name": "clearValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setValue",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setValueBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Target",
+    "methods": [
+      {
+        "name": "getCriterionCase",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilters",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIncludeAll",
+        "parameterTypes": []
+      },
+      {
+        "name": "getType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTypeBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Target$Builder",
+    "methods": [
+      {
+        "name": "clearCriterion",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearFilters",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearIncludeAll",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getCriterionCase",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilters",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFiltersBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIncludeAll",
+        "parameterTypes": []
+      },
+      {
+        "name": "getType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTypeBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFilters",
+        "parameterTypes": [
+          "io.spine.client.TargetFilters"
+        ]
+      },
+      {
+        "name": "setIncludeAll",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setType",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setTypeBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.TargetFilters",
+    "methods": [
+      {
+        "name": "getFilter",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getFilterCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilterList",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdFilter",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasIdFilter",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.TargetFilters$Builder",
+    "methods": [
+      {
+        "name": "addFilter",
+        "parameterTypes": [
+          "io.spine.client.CompositeFilter"
+        ]
+      },
+      {
+        "name": "clearFilter",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearIdFilter",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilter",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getFilterBuilder",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "getFilterCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFilterList",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdFilter",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdFilterBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasIdFilter",
+        "parameterTypes": []
+      },
+      {
+        "name": "setFilter",
+        "parameterTypes": [
+          "int",
+          "io.spine.client.CompositeFilter"
+        ]
+      },
+      {
+        "name": "setIdFilter",
+        "parameterTypes": [
+          "io.spine.client.IdFilter"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Topic",
+    "methods": [
+      {
+        "name": "getContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.Topic$Builder",
+    "methods": [
+      {
+        "name": "clearContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "getContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "getContextBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFieldMaskBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTargetBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasContext",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasFieldMask",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTarget",
+        "parameterTypes": []
+      },
+      {
+        "name": "setContext",
+        "parameterTypes": [
+          "io.spine.core.ActorContext"
+        ]
+      },
+      {
+        "name": "setFieldMask",
+        "parameterTypes": [
+          "com.google.protobuf.FieldMask"
+        ]
+      },
+      {
+        "name": "setId",
+        "parameterTypes": [
+          "io.spine.client.TopicId"
+        ]
+      },
+      {
+        "name": "setTarget",
+        "parameterTypes": [
+          "io.spine.client.Target"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.TopicId",
+    "methods": [
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.client.TopicId$Builder",
+    "methods": [
+      {
+        "name": "clearValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setValue",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setValueBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.core.ActorContext",
+    "methods": [
+      {
+        "name": "getActor",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLanguage",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLanguageValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTenantId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTimestamp",
+        "parameterTypes": []
+      },
+      {
+        "name": "getZoneId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getZoneOffset",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasActor",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTenantId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTimestamp",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasZoneId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasZoneOffset",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.core.ActorContext$Builder",
+    "methods": [
+      {
+        "name": "clearActor",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearLanguage",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearTenantId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearTimestamp",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearZoneId",
+        "parameterTypes": []
+      },
+      {
+        "name": "clearZoneOffset",
+        "parameterTypes": []
+      },
+      {
+        "name": "getActor",
+        "parameterTypes": []
+      },
+      {
+        "name": "getActorBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLanguage",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLanguageValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTenantId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTenantIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTimestamp",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTimestampBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getZoneId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getZoneIdBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "getZoneOffset",
+        "parameterTypes": []
+      },
+      {
+        "name": "getZoneOffsetBuilder",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasActor",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTenantId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasTimestamp",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasZoneId",
+        "parameterTypes": []
+      },
+      {
+        "name": "hasZoneOffset",
+        "parameterTypes": []
+      },
+      {
+        "name": "setActor",
+        "parameterTypes": [
+          "io.spine.core.UserId"
+        ]
+      },
+      {
+        "name": "setLanguage",
+        "parameterTypes": [
+          "io.spine.ui.Language"
+        ]
+      },
+      {
+        "name": "setLanguageValue",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setTenantId",
+        "parameterTypes": [
+          "io.spine.core.TenantId"
+        ]
+      },
+      {
+        "name": "setTimestamp",
+        "parameterTypes": [
+          "com.google.protobuf.Timestamp"
+        ]
+      },
+      {
+        "name": "setZoneId",
+        "parameterTypes": [
+          "io.spine.time.ZoneId"
+        ]
+      },
+      {
+        "name": "setZoneOffset",
+        "parameterTypes": [
+          "io.spine.time.ZoneOffset"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.core.TenantId",
+    "methods": [
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.core.UserId",
+    "methods": [
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.core.UserId$Builder",
+    "methods": [
+      {
+        "name": "clearValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setValue",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setValueBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.net.Url",
+    "methods": [
+      {
+        "name": "getSpec",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpecBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.net.Url$Builder",
+    "methods": [
+      {
+        "name": "clearSpec",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpec",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpecBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setSpec",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setSpecBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.time.ZoneId",
+    "methods": [
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.time.ZoneId$Builder",
+    "methods": [
+      {
+        "name": "clearValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValue",
+        "parameterTypes": []
+      },
+      {
+        "name": "getValueBytes",
+        "parameterTypes": []
+      },
+      {
+        "name": "setValue",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setValueBytes",
+        "parameterTypes": [
+          "com.google.protobuf.ByteString"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.time.ZoneOffset",
+    "methods": [
+      {
+        "name": "getAmountSeconds",
+        "parameterTypes": []
+      },
+      {
+        "name": "newBuilder",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "io.spine.time.ZoneOffset$Builder",
+    "methods": [
+      {
+        "name": "clearAmountSeconds",
+        "parameterTypes": []
+      },
+      {
+        "name": "getAmountSeconds",
+        "parameterTypes": []
+      },
+      {
+        "name": "setAmountSeconds",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "io.spine.ui.Language",
+    "methods": [
+      {
+        "name": "getValueDescriptor",
+        "parameterTypes": []
+      },
+      {
+        "name": "valueOf",
+        "parameterTypes": [
+          "com.google.protobuf.Descriptors$EnumValueDescriptor"
+        ]
+      }
+    ]
+  }
+]

@@ -25,7 +25,6 @@ internal class Login(private val app: PinghApplication) {
     }
 
     private fun EnterUsername.start() {
-        println("Enter username:")
         val usernameValue = "MykytaPimonovTD"
         val username = Username::class.of(usernameValue)
         val future = CompletableFuture<Unit>()

@@ -1,0 +1,28 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": "desc.ref"
+      },
+      {
+        "pattern": "io.spine.examples.pingh_client_1.0.7.desc"
+      },
+      {
+        "pattern": "io.spine.examples.pingh_clock_1.0.7.desc"
+      },
+      {
+        "pattern": "io.spine.examples.pingh_github_1.0.7.desc"
+      },
+      {
+        "pattern": "io.spine.examples.pingh_janitor_1.0.7.desc"
+      },
+      {
+        "pattern": "io.spine.examples.pingh_mentions_1.0.7.desc"
+      },
+      {
+        "pattern": "io.spine.examples.pingh_sessions_1.0.7.desc"
+      }
+    ]
+  },
+  "bundles": []
+}

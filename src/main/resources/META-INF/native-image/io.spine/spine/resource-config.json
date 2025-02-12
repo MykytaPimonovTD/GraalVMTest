@@ -1,0 +1,22 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": "desc.ref"
+      },
+      {
+        "pattern": "io.spine_client_1.9.0.desc"
+      },
+      {
+        "pattern": "io.spine_core_1.9.0.desc"
+      },
+      {
+        "pattern": "io.spine_server_1.9.0.desc"
+      },
+      {
+        "pattern": "io.spine_time_1.9.0.desc"
+      }
+    ]
+  },
+  "bundles": []
+}
